@@ -48,5 +48,5 @@ return [
     'digital', 'diet', 'design', 'dentist', 'dental', 'delivery', 'degree', 'deals', 'date', 'dance', 'cricket', 'creditcard',
     'credit', 'courses', 'coupons', 'condos', 'consulting', 'coach', 'cloud', 'clinic', 'click', 'claims', 'city', 'church',
     'chat', 'charity', 'casino', 'cafe', 'buzz', 'business', 'boston', 'blog', 'bio', 'bingo', 'bid', 'beer', 'band', 'audio',
-    'auction', 'attorney', 'art', 'army', 'apartments', 'airforce', 'accountants', 'accountant'
+    'auction', 'attorney', 'art', 'army', 'apartments', 'airforce', 'accountants', 'accountant', 'cm'
 ];

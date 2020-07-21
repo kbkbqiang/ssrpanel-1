@@ -194,7 +194,7 @@ class PaymentController extends Controller
             $payment->user_id = Auth::user()->id;
             $payment->oid = $order->oid;
             $payment->order_sn = $orderSn;
-            $payment->pay_way = 1;
+            $payment->pay_way = 2;
             $payment->amount = $amount;
             if (self::$systemConfig['is_youzan']) {
                 $payment->qr_id = $result['response']['qr_id'];
