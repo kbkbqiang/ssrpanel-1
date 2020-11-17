@@ -52,6 +52,7 @@ return [
             'prefix' => '',
             'strict' => env('DB_STRICT', true),
             'engine' => null,
+            'options'   => [PDO::ATTR_EMULATE_PREPARES => true],
         ],
 
         'pgsql' => [
