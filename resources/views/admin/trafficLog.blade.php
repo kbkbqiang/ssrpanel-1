@@ -36,7 +36,9 @@
                                 <select class="form-control" name="nodeId" id="nodeId" onChange="doSearch()">
                                     <option value="" @if(Request::get('nodeId') == '') selected @endif>选择节点</option>
                                     @foreach($nodeList as $node)
+                                        @if($node->is_transit == 0)
                                         <option value="{{$node->id}}" @if(Request::get('nodeId') == $node->id) selected @endif>{{$node->name}}</option>
+                                        @endif
                                     @endforeach
                                 </select>
                             </div>
