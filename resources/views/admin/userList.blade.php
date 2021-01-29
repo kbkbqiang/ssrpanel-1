@@ -147,6 +147,9 @@
                                                         </a>
                                                         <ul class="dropdown-menu">
                                                             <li>
+                                                                <a href="javascript:resetTraffic('{{$user->id}}');"> 流量清零 </a>
+                                                            </li>
+                                                            <li>
                                                                 <a href="javascript:editUser('{{$user->id}}');"> 编辑 </a>
                                                             </li>
                                                             <li>
@@ -160,9 +163,6 @@
                                                             </li>
                                                             <li>
                                                                 <a href="javascript:ipMonitor('{{$user->id}}');"> 在线巡查 </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="javascript:resetTraffic('{{$user->id}}');"> 流量清零 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="javascript:switchToUser('{{$user->id}}');"> 切换身份 </a>
